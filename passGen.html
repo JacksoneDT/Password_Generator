@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="passGen.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Password_generator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Generate a <br /><strong>random Password</strong></h1>
+      <p>Never use an insecure password again.</p>
+      <div class="container-btn">
+        <button id="pass" onclick="generatePassword()">
+          Generate Password
+        </button>
+        <button id="copy" type="button" onclick="copy()">
+          <i class="bx bx-copy"></i>
+        </button>
+      </div>
+      <div class="container2">
+        <div id="password-1"></div>
+        <div id="password-2"></div>
+      </div>
+    </div>
+
+    <script src="passGen.js"></script>
+  </body>
+</html>

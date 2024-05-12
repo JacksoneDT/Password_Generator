@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #323232;
+}
+
+.container {
+  width: 550px;
+  height: 550px;
+  display: block;
+  margin: 200px auto;
+  background-color: rgb(56, 217, 217);
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.container h1 {
+  font-size: 40px;
+  text-align: left;
+  margin: 50px 0 20px 30px;
+}
+
+strong {
+  color: #55c13a;
+}
+
+.container p {
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+
+.container #pass {
+  width: 200px;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0 20px 30px;
+}
+
+.container button:hover {
+  background-color: #55c13a;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  transition: 0.5s ease;
+  transform: translateY(-2px);
+  outline: none;
+}
+
+.container button:active {
+  transform: translateY(2px);
+}
+
+.container2 {
+  display: flex;
+  margin-left: 30px;
+  gap: 50px;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+#password-1,
+#password-2 {
+  width: 200px;
+  height: 40px;
+  border: 2px solid #323232;
+  border-radius: 15px;
+  text-align: center;
+  padding: 8px 16px;
+}
+
+.container-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#copy {
+  border: none;
+  width: 30px;
+  height: 30px;
+  display: block;
+  margin: 40px 0 20px 5px;
+  text-align: center;
+  font-size: 20px;
+  background-color: transparent;
+}
